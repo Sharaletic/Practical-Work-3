@@ -54,7 +54,6 @@ namespace TestLib
 
             List<string> line2 = new List<string>() { "Задачи по математике", "Алексей Иванов", "Контрольная работа", "16.09.2024", "10" };
             Assert.ThrowsException<Exception>(() => Factory.createObjects(line2));
-
         }
 
         [TestMethod]
@@ -70,7 +69,13 @@ namespace TestLib
 
             List<string> line2 = new List<string>() { "Задачи по физике", "Алексей Иванов", "Контрольная работа", "16.09.2024", "10" };
             Assert.ThrowsException<Exception>(() => Factory.createObjects(line2));
+        }
 
+        [TestMethod]
+        public void checkingTheLine()
+        {
+            Assert.AreEqual(true, Factory.cheeckLine("\"Задача\" \"Алексей Иванов\" \"Контрольная работа\" 16.09.2024"));
+            Assert.AreEqual(false, Factory.cheeckLine("\"Задача\" \"Алексей Иванов \"Контрольная работа\" 16.09.2024"));
         }
     }
 }
