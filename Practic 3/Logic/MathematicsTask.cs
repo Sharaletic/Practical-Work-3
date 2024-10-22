@@ -10,15 +10,15 @@ namespace Logic
     {
         public double Mark { get; set; }
 
-        public MathematicsTask(string nameStudent, string typeOfTopic, DateTime dateGet, double mark)
-            : base(nameStudent, typeOfTopic, dateGet)
+        public MathematicsTask(string nameStudent, string typeOfTask, DateTime dateGet, double mark)
+            : base(nameStudent, typeOfTask, dateGet)
         {
             Mark = mark;
         }
 
         public override void print()
         {
-            Console.WriteLine($"Задача по математике: {NameStudent}, {TypeOfTopic}, {DateGet:dd.MM.yyy}, {Mark}");
+            Console.WriteLine($"Задача по математике: {NameStudent}, {TypeOfTask}, {DateGet:dd.MM.yyy}, {Mark}");
         }
     }
 }
