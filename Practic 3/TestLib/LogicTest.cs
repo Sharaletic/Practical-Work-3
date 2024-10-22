@@ -20,5 +20,12 @@ namespace TestLib
             Assert.AreEqual(12, Factory.parseInt("12"));
             Assert.ThrowsException<Exception>(() => Factory.parseInt("anytext"));
         }
+
+        [TestMethod]
+        public void parseMarkData()
+        {
+            Assert.AreEqual(9,8, Factory.parseMark("9,8"));
+            Assert.ThrowsException<Exception>(() => Factory.parseMark("11"));
+        }
     }
 }
