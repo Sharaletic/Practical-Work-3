@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{87442D27-26B0-47D4-B6EF-7F957F7BA533}|TestLib\\TestLib.csproj|solutionrelative:testlib\\logictest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AD03446-F023-4114-B8C5-2472E4895551}|Practic 3\\Practic 3.csproj|C:\\Users\\\u0412\u0430\u0434\u0438\u043C\\Desktop\\\u043E\u0441\u0442\u0430\u043B\u044C\u043D\u043E\u0435\\\u041F\u0418\u0421\\Practic 3\\Practic 3\\practic 3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AD03446-F023-4114-B8C5-2472E4895551}|Practic 3\\Practic 3.csproj|solutionrelative:practic 3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EA6237D3-484A-4B21-B472-C744CB592085}|Logic\\Logic.csproj|C:\\Users\\\u0412\u0430\u0434\u0438\u043C\\Desktop\\\u043E\u0441\u0442\u0430\u043B\u044C\u043D\u043E\u0435\\\u041F\u0418\u0421\\Practic 3\\Practic 3\\logic\\factory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA6237D3-484A-4B21-B472-C744CB592085}|Logic\\Logic.csproj|solutionrelative:logic\\factory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AD03446-F023-4114-B8C5-2472E4895551}|Practic 3\\Practic 3.csproj|C:\\Users\\\u0412\u0430\u0434\u0438\u043C\\Desktop\\\u043E\u0441\u0442\u0430\u043B\u044C\u043D\u043E\u0435\\\u041F\u0418\u0421\\Practic 3\\Practic 3\\practic 3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AD03446-F023-4114-B8C5-2472E4895551}|Practic 3\\Practic 3.csproj|solutionrelative:practic 3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA6237D3-484A-4B21-B472-C744CB592085}|Logic\\Logic.csproj|C:\\Users\\\u0412\u0430\u0434\u0438\u043C\\Desktop\\\u043E\u0441\u0442\u0430\u043B\u044C\u043D\u043E\u0435\\\u041F\u0418\u0421\\Practic 3\\Practic 3\\logic\\tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,22 +46,22 @@
               "Title": "LogicTest.cs",
               "DocumentMoniker": "C:\\Users\\\u0412\u0430\u0434\u0438\u043C\\Desktop\\\u043E\u0441\u0442\u0430\u043B\u044C\u043D\u043E\u0435\\\u041F\u0418\u0421\\Practic 3\\Practic 3\\TestLib\\LogicTest.cs",
               "RelativeDocumentMoniker": "TestLib\\LogicTest.cs",
-              "ToolTip": "C:\\Users\\\u0412\u0430\u0434\u0438\u043C\\Desktop\\\u043E\u0441\u0442\u0430\u043B\u044C\u043D\u043E\u0435\\\u041F\u0418\u0421\\Practic 3\\Practic 3\\TestLib\\LogicTest.cs",
-              "RelativeToolTip": "TestLib\\LogicTest.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAowE0AAAAhAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u0434\u0438\u043C\\Desktop\\\u043E\u0441\u0442\u0430\u043B\u044C\u043D\u043E\u0435\\\u041F\u0418\u0421\\Practic 3\\Practic 3\\TestLib\\LogicTest.cs*",
+              "RelativeToolTip": "TestLib\\LogicTest.cs*",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAowHAAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T16:00:47.431Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Factory.cs",
               "DocumentMoniker": "C:\\Users\\\u0412\u0430\u0434\u0438\u043C\\Desktop\\\u043E\u0441\u0442\u0430\u043B\u044C\u043D\u043E\u0435\\\u041F\u0418\u0421\\Practic 3\\Practic 3\\Logic\\Factory.cs",
               "RelativeDocumentMoniker": "Logic\\Factory.cs",
-              "ToolTip": "C:\\Users\\\u0412\u0430\u0434\u0438\u043C\\Desktop\\\u043E\u0441\u0442\u0430\u043B\u044C\u043D\u043E\u0435\\\u041F\u0418\u0421\\Practic 3\\Practic 3\\Logic\\Factory.cs",
-              "RelativeToolTip": "Logic\\Factory.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAqwDEAAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\\u0412\u0430\u0434\u0438\u043C\\Desktop\\\u043E\u0441\u0442\u0430\u043B\u044C\u043D\u043E\u0435\\\u041F\u0418\u0421\\Practic 3\\Practic 3\\Logic\\Factory.cs*",
+              "RelativeToolTip": "Logic\\Factory.cs*",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwBoAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T15:51:36.373Z",
               "EditorCaption": ""
@@ -76,8 +76,7 @@
               "RelativeToolTip": "Logic\\PhysicsTask.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T15:53:57.573Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T15:53:57.573Z"
             },
             {
               "$type": "Document",
@@ -106,7 +105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\\u0412\u0430\u0434\u0438\u043C\\Desktop\\\u043E\u0441\u0442\u0430\u043B\u044C\u043D\u043E\u0435\\\u041F\u0418\u0421\\Practic 3\\Practic 3\\Practic 3\\Program.cs",
               "RelativeDocumentMoniker": "Practic 3\\Program.cs",

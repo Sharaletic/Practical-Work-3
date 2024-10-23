@@ -21,7 +21,7 @@ namespace Logic
 
         public static List<string> splitLine(string line)
         {
-            if (!cheeckLine(line))
+            if (!checkLine(line))
                 throw new Exception("Неверный формат строки");
             List<string> lineList = new List<string>();
             string[] part1 = line.Trim().Split('"');
@@ -31,7 +31,7 @@ namespace Logic
             return lineList;
         }
 
-        public static bool cheeckLine(string line)
+        public static bool checkLine(string line)
         {
             int count = line.Count(x => x == '"');
             if (count == 6 && line != string.Empty)
