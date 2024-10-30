@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,12 +12,18 @@ namespace Practic_3
     {
         static void Main(string[] args)
         {
-            string text = "\"Задача\" \"Алексей Иванов    \"Контрольная работа\"     16.09.2024\n" +
-            "\"Задача\" \"Алексей Иванов\"    \"Контрольная работа\"     16.09.2024\n" +
-            "\"Задача по математике\"    \"Александр Борисов\"       \"Практическая работа\"     10.15.2024     4,7\n" +
-            "\"Задача по математике\" \"Ирина Николаевна\"     \"Лабораторная работа\"    07.09.2024        5,5\n" +
-            "\"Задача по физике\" \"Дмитрий Иванов\"       \"Курсовая работа\"   04.09.2024    5       25.09.2024\n" +
-            "\"Задача по физике\" \"Петр Петров\"    \"Итоговая работа\"    14.09.2024     5     25.09.2024";
+            string text = "Задача \"Алексей Иванов\"     Контрольная     16.09.2024\n" +
+            "Задача \"Алексей Иванов\"    Контрольная     16.09.2024\n" +
+            "Математика \"Александр Борисов\"       Практическая     10.15.2024     4,7\n" +
+            "Математика \"Ирина Николаевна\"     Лабораторная    07.09.2024        5,5\n" +
+            "Физика \"Дмитрий Иванов\"       Курсовая   04.09.2024    5       25.09.2024\n" +
+            "Физика \"Петр Петров\"    Итоговая    14.09.2024     5     25.09.2024";
+            //string[] line1 = text.Substring(text.IndexOf('"') + 1, text.LastIndexOf('"') - (text.IndexOf('"') + 1)).Split('"').Where(x => !string.IsNullOrWhiteSpace(x)).ToArray();
+            //string[] line2 = text.Substring(text.LastIndexOf('"') + 1, text.Length - (text.LastIndexOf('"') + 1)).Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+            //Console.WriteLine(line1[0] + ' ' + line1[1] + ' ' + line2[0]);
+
+
+
             while (true)
             {
                 Console.WriteLine("Нужно ли считать с текстового файла\n1 - да\n2 - нет");
@@ -39,7 +46,7 @@ namespace Practic_3
             {
                 try
                 {
-                    Factory.createObjects(Factory.splitLine(item)).print();
+                    Factory.createObjects(item).print();
                 }
                 catch (Exception ex)
                 {
@@ -50,17 +57,23 @@ namespace Practic_3
 
         private static void createObjectForTextFromFile()
         {
-            foreach (var item in Factory.readFile())
+            string path = "text.txt";
+            if (File.Exists(path))
             {
-                try
+                foreach (var item in Factory.readFile(path))
                 {
-                    Factory.createObjects(Factory.splitLine(item)).print();
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine(ex.Message);
+                    try
+                    {
+                        Factory.createObjects(item).print();
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine(ex.Message);
+                    }
                 }
             }
+            else
+                Console.WriteLine("Не найден файл");
         }
     }
 }
