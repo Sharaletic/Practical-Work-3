@@ -18,11 +18,6 @@ namespace Practic_3
             "Математика \"Ирина Николаевна\"     Лабораторная    07.09.2024        5,5\n" +
             "Физика \"Дмитрий Иванов\"       Курсовая   04.09.2024    5       25.09.2024\n" +
             "Физика \"Петр Петров\"    Итоговая    14.09.2024     5     25.09.2024";
-            //string[] line1 = text.Substring(text.IndexOf('"') + 1, text.LastIndexOf('"') - (text.IndexOf('"') + 1)).Split('"').Where(x => !string.IsNullOrWhiteSpace(x)).ToArray();
-            //string[] line2 = text.Substring(text.LastIndexOf('"') + 1, text.Length - (text.LastIndexOf('"') + 1)).Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
-            //Console.WriteLine(line1[0] + ' ' + line1[1] + ' ' + line2[0]);
-
-
 
             while (true)
             {
