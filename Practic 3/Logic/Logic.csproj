@@ -41,9 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CreateObject.cs" />
     <Compile Include="Factory.cs" />
     <Compile Include="MathematicsTask.cs" />
     <Compile Include="PhysicsTask.cs" />
+    <Compile Include="ProgrammingTask.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tasks.cs" />
   </ItemGroup>

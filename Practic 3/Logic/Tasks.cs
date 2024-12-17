@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// This is a personal academic project. Dear PVS-Studio, please check it.// PVS-Studio Static Code Analyzer for C, C++ and C#: http://www.viva64.com
+using System;
 using System.Xml.Linq;
 
 namespace Logic
@@ -18,21 +15,6 @@ namespace Logic
             NameStudent = nameStudent;
             TypeOfTask = typeOfTask;
             DateGet = dateGet;
-        }
-
-        public override bool Equals(object obj)
-        {
-            if (obj == null || GetType() != obj.GetType())
-            {
-                return false;
-            }
-            Tasks task = (Tasks)obj;
-            return NameStudent == task.NameStudent && TypeOfTask == task.TypeOfTask && DateGet == task.DateGet;
-        }
-
-        public virtual void print()
-        {
-            Console.WriteLine($"Задача: {NameStudent}, {TypeOfTask}, {DateGet:dd.MM.yyy}");
         }
     }
 }

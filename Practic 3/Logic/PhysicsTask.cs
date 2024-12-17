@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// This is a personal academic project. Dear PVS-Studio, please check it.// PVS-Studio Static Code Analyzer for C, C++ and C#: http://www.viva64.com
+using System;
+using System.Xml.Linq;
 
 namespace Logic
 {
@@ -18,9 +16,22 @@ namespace Logic
             DateOfCompletion = dateOfCompletion;
         }
 
-        public override void print()
+        public override bool Equals(object obj)
         {
-            Console.WriteLine($"Задача по физике: {NameStudent}, {TypeOfTask}, {DateGet:dd.MM.yyy}, {Quantity}, {DateOfCompletion:dd.MM.yyy}");
+            if (obj is PhysicsTask task)
+                return NameStudent == task.NameStudent && TypeOfTask == task.TypeOfTask && DateGet == task.DateGet && Quantity == task.Quantity && 
+                    DateOfCompletion == task.DateOfCompletion;
+            return false;
+        }
+
+        public override int GetHashCode()
+        {
+            return (NameStudent, TypeOfTask, DateGet, Quantity, DateOfCompletion).GetHashCode();
+        }
+
+        public override string ToString()
+        {
+            return $"Задача по физике: {NameStudent}, {TypeOfTask}, {DateGet:dd.MM.yyy}, {Quantity}, {DateOfCompletion:dd.MM.yyy}";
         }
     }
 }

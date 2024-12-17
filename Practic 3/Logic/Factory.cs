@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿// This is a personal academic project. Dear PVS-Studio, please check it.// PVS-Studio Static Code Analyzer for C, C++ and C#: http://www.viva64.com
+using System;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace Logic
 {
@@ -22,48 +19,50 @@ namespace Logic
 
         public static bool checkLine(string line)
         {
-            int count = line.Count(x => x == '"');
-            if (count == 2 && line != string.Empty)
+            if (!string.IsNullOrWhiteSpace(line) && line.Count(x => x == '"') == 2)
                 return true;
             return false;
         }
 
-        public static Tasks createTask(string text)
+        public static (string, string[]) parseLine(string text)
         {
             if (!checkLine(text))
                 throw new Exception("Неверный формат строки");
-            string name = text.Substring(text.IndexOf('"') + 1, text.LastIndexOf('"') - (text.IndexOf('"') + 1));
-            string[] line = text.Substring(text.LastIndexOf('"') + 1).Trim().Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
-            if (line.Length != 2)
+            else
+            {
+                string name = text.Substring(text.IndexOf('"') + 1, text.LastIndexOf('"') - (text.IndexOf('"') + 1));
+                string[] data = text.Substring(text.LastIndexOf('"') + 1).Trim().Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+                return (name, data);
+            }
+        }
+
+        public static Tasks createProgrammingTask(string text)
+        {
+            var (name, data) = parseLine(text);
+            if (data.Length != 2)
                 throw new Exception("Неверное количество полей");
-            return new Tasks(name, line[0], parseDate(line[1]));
+            return new ProgrammingTask(name, data[0], parseDate(data[1]));
         }
 
         public static Tasks createMathematicsTask(string text)
         {
-            if (!checkLine(text))
-                throw new Exception("Неверный формат строки");
-            string name = text.Substring(text.IndexOf('"') + 1, text.LastIndexOf('"') - (text.IndexOf('"') + 1));
-            string[] line = text.Substring(text.LastIndexOf('"') + 1).Trim().Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
-            if (line.Length != 3)
+            var (name, data) = parseLine(text);
+            if (data.Length != 3)
                 throw new Exception("Неверное количество полей");
-            return new MathematicsTask(name, line[0], parseDate(line[1]), parseMark(line[2]));
+            return new MathematicsTask(name, data[0], parseDate(data[1]), parseDouble(data[2]));
         }
 
         public static Tasks createPhysicsTask(string text)
         {
-            if (!checkLine(text))
-                throw new Exception("Неверный формат строки");
-            string name = text.Substring(text.IndexOf('"') + 1, text.LastIndexOf('"') - (text.IndexOf('"') + 1));
-            string[] line = text.Substring(text.LastIndexOf('"') + 1).Trim().Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
-            if (line.Length != 4)
+            var (name, data) = parseLine(text);
+            if (data.Length != 4)
                 throw new Exception("Неверное количество полей");
-            return new PhysicsTask(name, line[0], parseDate(line[1]), parseInt(line[2]), parseDate(line[3]));
+            return new PhysicsTask(name, data[0], parseDate(data[1]), parseInt(data[2]), parseDate(data[3]));
         }
 
         public static bool checkType(string type)
         {
-            if (type == "Задача" || type == "Математика" || type == "Физика")
+            if (type == "Программирование" || type == "Математика" || type == "Физика")
                 return true;
             return false;
         }
@@ -72,34 +71,36 @@ namespace Logic
         {
             if (!DateTime.TryParse(date, out DateTime dt))
                 throw new Exception("Дата имеет неверный формат");
-            return DateTime.Parse(date);
+            return dt;
         }
 
         public static int parseInt(string number)
         {
             if (!int.TryParse(number, out int nb))
                 throw new Exception("Число имеет неверный формат");
-            return Convert.ToInt16(number);
+            return nb;
         }
 
-        public static double parseMark(string mark)
+        public static double parseDouble(string mark)
         {
-            if (double.TryParse(mark, out double d) && (d >= 0 && d <= 10))
-                return Double.Parse(mark);
-            throw new Exception("Оценка имеет неверный формат");
+            if (!double.TryParse(mark, out double mk))
+                throw new Exception("Оценка имеет неверный формат");
+            return mk;
         }
 
         public static Tasks createObjects(string text)
         {
-            if (!checkType(text.Split(' ')[0]))
+            string[] data = text.Split(new char[] { ' ' }, 2, StringSplitOptions.RemoveEmptyEntries);
+
+            if (!checkType(data[0]))
                 throw new Exception($"Неверный тип объекта");
-            string type = text.Split(' ')[0];
-            if (type == "Задача")
-                return createTask(text);
-            if (type == "Математика")
-                return createMathematicsTask(text);
-            if (type == "Физика")
-                return createPhysicsTask(text);
+
+            if (data[0] == "Программирование")
+                return createProgrammingTask(data[1]);
+            if (data[0] == "Математика")
+                return createMathematicsTask(data[1]);
+            if (data[0] == "Физика")
+                return createPhysicsTask(data[1]);
             else
                 throw new Exception("Не удалось создать объект");
         }
