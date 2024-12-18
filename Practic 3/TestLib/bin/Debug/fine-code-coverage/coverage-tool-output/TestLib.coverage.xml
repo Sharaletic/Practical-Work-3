@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="4.7.922.0">
+  <Summary numSequencePoints="205" visitedSequencePoints="133" numBranchPoints="117" visitedBranchPoints="79" sequenceCoverage="64.88" branchCoverage="67.52" maxCyclomaticComplexity="6" minCyclomaticComplexity="1" maxCrapScore="12" minCrapScore="1" visitedClasses="10" numClasses="11" visitedMethods="39" numMethods="49" />
+  <Modules>
+    <Module hash="0C-94-11-69-CB-CE-CB-B7-A8-C5-7B-28-0F-22-08-B9-B1-B6-BB-08">
+      <Summary numSequencePoints="30" visitedSequencePoints="30" numBranchPoints="9" visitedBranchPoints="9" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="4" numClasses="4" visitedMethods="9" numMethods="9" />
+      <ModulePath>C:\Users\Вадим\Desktop\остальное\ПИС\Practic 3\Practic 3\TestLib\bin\Debug\fine-code-coverage\build-output\TestLib.dll</ModulePath>
+      <ModuleTime>2024-12-18T02:07:15.9984705Z</ModuleTime>
+      <ModuleName>TestLib</ModuleName>
+      <Files>
+        <File uid="1" fullPath="C:\Users\Вадим\Desktop\остальное\ПИС\Practic 3\Practic 3\TestLib\LogicTest.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="27" visitedSequencePoints="27" numBranchPoints="6" visitedBranchPoints="6" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="6" numMethods="6" />
+          <FullName>TestLib.LogicTest</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void TestLib.LogicTest::create_ProgrammingTaskObject_ReturnsSameProgrammingTaskObject()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="1" ordinal="0" offset="0" sl="14" sc="9" el="14" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="2" ordinal="1" offset="1" sl="15" sc="13" el="15" ec="103" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="3" ordinal="2" offset="31" sl="16" sc="13" el="16" ec="91" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="4" ordinal="3" offset="37" sl="17" sc="13" el="17" ec="69" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="5" ordinal="4" offset="50" sl="18" sc="9" el="18" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="1" ordinal="0" offset="0" sl="14" sc="9" el="14" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void TestLib.LogicTest::create_ProgrammingTaskObject_with_Exception()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="6" ordinal="0" offset="6" sl="22" sc="9" el="22" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="7" ordinal="1" offset="7" sl="23" sc="13" el="23" ec="95" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="8" ordinal="2" offset="18" sl="24" sc="13" el="24" ec="86" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="9" ordinal="3" offset="36" sl="38" sc="9" el="38" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="10" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Void TestLib.LogicTest::сreate_MathematicsTaskObject_ReturnsSameMathematicsTaskObject()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="11" ordinal="0" offset="0" sl="42" sc="9" el="42" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="12" ordinal="1" offset="1" sl="43" sc="13" el="43" ec="107" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="13" ordinal="2" offset="40" sl="44" sc="13" el="44" ec="91" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="14" ordinal="3" offset="46" sl="45" sc="13" el="45" ec="69" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="15" ordinal="4" offset="59" sl="46" sc="9" el="46" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="11" ordinal="0" offset="0" sl="42" sc="9" el="42" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663300</MetadataToken>
+              <Name>System.Void TestLib.LogicTest::create_MathematicsTaskObject_with_Exception()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="16" ordinal="0" offset="6" sl="50" sc="9" el="50" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="17" ordinal="1" offset="7" sl="51" sc="13" el="51" ec="94" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="18" ordinal="2" offset="18" sl="52" sc="13" el="52" ec="86" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="19" ordinal="3" offset="36" sl="66" sc="9" el="66" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="20" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663301</MetadataToken>
+              <Name>System.Void TestLib.LogicTest::create_PhysicsTaskObject_ReturnsSamePhysicsTaskObject()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="21" ordinal="0" offset="0" sl="70" sc="9" el="70" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="22" ordinal="1" offset="1" sl="71" sc="13" el="71" ec="131" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="23" ordinal="2" offset="47" sl="72" sc="13" el="72" ec="100" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="24" ordinal="3" offset="53" sl="73" sc="13" el="73" ec="69" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="25" ordinal="4" offset="66" sl="74" sc="9" el="74" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="21" ordinal="0" offset="0" sl="70" sc="9" el="70" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663302</MetadataToken>
+              <Name>System.Void TestLib.LogicTest::create_PhysicsTaskObject_with_Exception()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="26" ordinal="0" offset="6" sl="78" sc="9" el="78" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="27" ordinal="1" offset="7" sl="79" sc="13" el="79" ec="90" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="28" ordinal="2" offset="18" sl="80" sc="13" el="80" ec="86" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="29" ordinal="3" offset="36" sl="94" sc="9" el="94" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="30" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663303</MetadataToken>
+              <Name>System.Void TestLib.LogicTest::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="31" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>TestLib.LogicTest/&lt;&gt;c__DisplayClass1_0</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663304</MetadataToken>
+              <Name>System.Void TestLib.LogicTest/&lt;&gt;c__DisplayClass1_0::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="32" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663305</MetadataToken>
+              <Name>System.Object TestLib.LogicTest/&lt;&gt;c__DisplayClass1_0::&lt;create_ProgrammingTaskObject_with_Exception&gt;b__0()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="33" ordinal="0" offset="0" sl="24" sc="53" el="24" ec="84" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="33" ordinal="0" offset="0" sl="24" sc="53" el="24" ec="84" bec="0" bev="0" fileid="1" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>TestLib.LogicTest/&lt;&gt;c__DisplayClass3_0</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663306</MetadataToken>
+              <Name>System.Void TestLib.LogicTest/&lt;&gt;c__DisplayClass3_0::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="34" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663307</MetadataToken>
+              <Name>System.Object TestLib.LogicTest/&lt;&gt;c__DisplayClass3_0::&lt;create_MathematicsTaskObject_with_Exception&gt;b__0()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="35" ordinal="0" offset="0" sl="52" sc="53" el="52" ec="84" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="35" ordinal="0" offset="0" sl="52" sc="53" el="52" ec="84" bec="0" bev="0" fileid="1" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>TestLib.LogicTest/&lt;&gt;c__DisplayClass5_0</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663308</MetadataToken>
+              <Name>System.Void TestLib.LogicTest/&lt;&gt;c__DisplayClass5_0::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="36" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663309</MetadataToken>
+              <Name>System.Object TestLib.LogicTest/&lt;&gt;c__DisplayClass5_0::&lt;create_PhysicsTaskObject_with_Exception&gt;b__0()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="37" ordinal="0" offset="0" sl="80" sc="53" el="80" ec="84" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="37" ordinal="0" offset="0" sl="80" sc="53" el="80" ec="84" bec="0" bev="0" fileid="1" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module hash="32-15-6B-85-CD-1D-B0-57-EF-94-ED-95-75-04-E1-FE-13-DF-8A-32">
+      <Summary numSequencePoints="175" visitedSequencePoints="103" numBranchPoints="108" visitedBranchPoints="70" sequenceCoverage="58.86" branchCoverage="64.81" maxCyclomaticComplexity="6" minCyclomaticComplexity="1" maxCrapScore="12" minCrapScore="1" visitedClasses="6" numClasses="7" visitedMethods="30" numMethods="40" />
+      <ModulePath>C:\Users\Вадим\Desktop\остальное\ПИС\Practic 3\Practic 3\TestLib\bin\Debug\fine-code-coverage\build-output\Logic.dll</ModulePath>
+      <ModuleTime>2024-12-18T01:42:03.2191242Z</ModuleTime>
+      <ModuleName>Logic</ModuleName>
+      <Files>
+        <File uid="9" fullPath="C:\Users\Вадим\Desktop\остальное\ПИС\Practic 3\Practic 3\Logic\CreateObject.cs" />
+        <File uid="10" fullPath="C:\Users\Вадим\Desktop\остальное\ПИС\Practic 3\Practic 3\Logic\Factory.cs" />
+        <File uid="12" fullPath="C:\Users\Вадим\Desktop\остальное\ПИС\Practic 3\Practic 3\Logic\MathematicsTask.cs" />
+        <File uid="13" fullPath="C:\Users\Вадим\Desktop\остальное\ПИС\Practic 3\Practic 3\Logic\PhysicsTask.cs" />
+        <File uid="14" fullPath="C:\Users\Вадим\Desktop\остальное\ПИС\Practic 3\Practic 3\Logic\ProgrammingTask.cs" />
+        <File uid="15" fullPath="C:\Users\Вадим\Desktop\остальное\ПИС\Practic 3\Practic 3\Logic\Tasks.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="35" visitedSequencePoints="0" numBranchPoints="4" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="3" minCyclomaticComplexity="1" maxCrapScore="12" minCrapScore="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="2" />
+          <FullName>Logic.CreateObject</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="6" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="15" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="6" minCrapScore="6" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void Logic.CreateObject::cresteObjectForTextFromString(System.String)</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="38" ordinal="0" offset="0" sl="10" sc="9" el="10" ec="10" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="39" ordinal="1" offset="1" sl="11" sc="13" el="11" ec="20" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="40" ordinal="2" offset="2" sl="11" sc="34" el="11" ec="56" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="41" ordinal="3" offset="13" sl="11" sc="22" el="11" ec="30" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="42" ordinal="4" offset="17" sl="12" sc="13" el="12" ec="14" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="43" ordinal="5" offset="18" sl="14" sc="17" el="14" ec="18" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="44" ordinal="6" offset="19" sl="15" sc="21" el="15" ec="79" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="45" ordinal="7" offset="36" sl="16" sc="17" el="16" ec="18" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="46" ordinal="8" offset="39" sl="17" sc="17" el="17" ec="37" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="47" ordinal="9" offset="40" sl="18" sc="17" el="18" ec="18" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="48" ordinal="10" offset="41" sl="19" sc="21" el="19" ec="51" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="49" ordinal="11" offset="53" sl="20" sc="17" el="20" ec="18" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="50" ordinal="12" offset="56" sl="21" sc="13" el="21" ec="14" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="51" ordinal="13" offset="61" sl="11" sc="31" el="11" ec="33" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="52" ordinal="14" offset="67" sl="22" sc="9" el="22" ec="10" bec="0" bev="0" fileid="9" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="38" ordinal="0" offset="0" sl="10" sc="9" el="10" ec="10" bec="0" bev="0" fileid="9" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="3" nPathComplexity="2" sequenceCoverage="0" branchCoverage="0" crapScore="12" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="20" visitedSequencePoints="0" numBranchPoints="3" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="3" minCyclomaticComplexity="3" maxCrapScore="12" minCrapScore="12" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void Logic.CreateObject::createObjectForTextFromFile()</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="55" ordinal="0" offset="0" sl="25" sc="9" el="25" ec="10" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="56" ordinal="1" offset="1" sl="26" sc="13" el="26" ec="38" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="57" ordinal="2" offset="7" sl="27" sc="13" el="27" ec="35" bec="2" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="58" ordinal="3" offset="17" sl="28" sc="13" el="28" ec="14" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="59" ordinal="4" offset="18" sl="29" sc="17" el="29" ec="24" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="60" ordinal="5" offset="19" sl="29" sc="38" el="29" ec="60" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="61" ordinal="6" offset="30" sl="29" sc="26" el="29" ec="34" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="62" ordinal="7" offset="35" sl="30" sc="17" el="30" ec="18" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="63" ordinal="8" offset="36" sl="32" sc="21" el="32" ec="22" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="64" ordinal="9" offset="37" sl="33" sc="25" el="33" ec="83" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="65" ordinal="10" offset="55" sl="34" sc="21" el="34" ec="22" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="66" ordinal="11" offset="58" sl="35" sc="21" el="35" ec="41" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="67" ordinal="12" offset="60" sl="36" sc="21" el="36" ec="22" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="68" ordinal="13" offset="61" sl="37" sc="25" el="37" ec="55" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="69" ordinal="14" offset="74" sl="38" sc="21" el="38" ec="22" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="70" ordinal="15" offset="77" sl="39" sc="17" el="39" ec="18" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="71" ordinal="16" offset="82" sl="29" sc="35" el="29" ec="37" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="72" ordinal="17" offset="88" sl="40" sc="13" el="40" ec="14" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="73" ordinal="18" offset="91" sl="42" sc="17" el="42" ec="53" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="0" uspid="74" ordinal="19" offset="102" sl="43" sc="9" el="43" ec="10" bec="0" bev="0" fileid="9" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="75" ordinal="0" offset="15" sl="27" path="0" offsetend="17" fileid="9" />
+                <BranchPoint vc="0" uspid="76" ordinal="1" offset="15" sl="27" path="1" offsetend="91" fileid="9" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="55" ordinal="0" offset="0" sl="25" sc="9" el="25" ec="10" bec="0" bev="0" fileid="9" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Void Logic.CreateObject::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="79" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="69" visitedSequencePoints="54" numBranchPoints="46" visitedBranchPoints="34" sequenceCoverage="78.26" branchCoverage="73.91" maxCyclomaticComplexity="5" minCyclomaticComplexity="1" maxCrapScore="5.01" minCrapScore="2" visitedClasses="1" numClasses="1" visitedMethods="10" numMethods="12" />
+          <FullName>Logic.Factory</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663300</MetadataToken>
+              <Name>System.String[] Logic.Factory::getLines(System.String)</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="80" ordinal="0" offset="0" sl="11" sc="9" el="11" ec="10" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="81" ordinal="1" offset="1" sl="12" sc="13" el="12" ec="44" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="82" ordinal="2" offset="26" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="80" ordinal="0" offset="0" sl="11" sc="9" el="11" ec="10" bec="0" bev="0" fileid="10" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663301</MetadataToken>
+              <Name>System.String[] Logic.Factory::readFile(System.String)</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="83" ordinal="0" offset="0" sl="16" sc="9" el="16" ec="10" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="84" ordinal="1" offset="1" sl="17" sc="13" el="17" ec="62" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="85" ordinal="2" offset="31" sl="18" sc="9" el="18" ec="10" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="83" ordinal="0" offset="0" sl="16" sc="9" el="16" ec="10" bec="0" bev="0" fileid="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="4" nPathComplexity="8" sequenceCoverage="80" branchCoverage="71.43" crapScore="4.13" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="4" numBranchPoints="7" visitedBranchPoints="5" sequenceCoverage="80" branchCoverage="71.43" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" maxCrapScore="4.13" minCrapScore="4.13" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663302</MetadataToken>
+              <Name>System.Boolean Logic.Factory::checkLine(System.String)</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="86" ordinal="0" offset="0" sl="21" sc="9" el="21" ec="10" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="3" uspid="87" ordinal="1" offset="1" sl="22" sc="13" el="22" ec="84" bec="6" bev="4" fileid="10" />
+                <SequencePoint vc="3" uspid="88" ordinal="2" offset="56" sl="23" sc="17" el="23" ec="29" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="89" ordinal="3" offset="60" sl="24" sc="13" el="24" ec="26" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="3" uspid="90" ordinal="4" offset="64" sl="25" sc="9" el="25" ec="10" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="3" uspid="91" ordinal="0" offset="7" sl="22" path="0" offsetend="9" fileid="10" />
+                <BranchPoint vc="0" uspid="92" ordinal="1" offset="7" sl="22" path="1" offsetend="51" fileid="10" />
+                <BranchPoint vc="1" uspid="93" ordinal="2" offset="16" sl="22" path="0" offsetend="18" fileid="10" />
+                <BranchPoint vc="2" uspid="94" ordinal="3" offset="16" sl="22" path="1" offsetend="41" fileid="10" />
+                <BranchPoint vc="3" uspid="95" ordinal="4" offset="54" sl="22" path="0" offsetend="56" fileid="10" />
+                <BranchPoint vc="0" uspid="96" ordinal="5" offset="54" sl="22" path="1" offsetend="60" fileid="10" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="3" uspid="86" ordinal="0" offset="0" sl="21" sc="9" el="21" ec="10" bec="0" bev="0" fileid="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="87.5" branchCoverage="66.67" crapScore="2.01" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="8" visitedSequencePoints="7" numBranchPoints="3" visitedBranchPoints="2" sequenceCoverage="87.5" branchCoverage="66.67" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="2.01" minCrapScore="2.01" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663303</MetadataToken>
+              <Name>System.ValueTuple`2&lt;System.String,System.String[]&gt; Logic.Factory::parseLine(System.String)</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="97" ordinal="0" offset="0" sl="28" sc="9" el="28" ec="10" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="3" uspid="98" ordinal="1" offset="1" sl="29" sc="13" el="29" ec="34" bec="2" bev="1" fileid="10" />
+                <SequencePoint vc="0" uspid="99" ordinal="2" offset="14" sl="30" sc="17" el="30" ec="63" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="3" uspid="100" ordinal="3" offset="25" sl="32" sc="13" el="32" ec="14" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="3" uspid="101" ordinal="4" offset="26" sl="33" sc="17" el="33" ec="118" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="3" uspid="102" ordinal="5" offset="62" sl="34" sc="17" el="34" ec="147" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="3" uspid="103" ordinal="6" offset="101" sl="35" sc="17" el="35" ec="37" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="3" uspid="104" ordinal="7" offset="111" sl="37" sc="9" el="37" ec="10" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="105" ordinal="0" offset="12" sl="29" path="0" offsetend="14" fileid="10" />
+                <BranchPoint vc="3" uspid="106" ordinal="1" offset="12" sl="29" path="1" offsetend="25" fileid="10" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="3" uspid="97" ordinal="0" offset="0" sl="28" sc="9" el="28" ec="10" bec="0" bev="0" fileid="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="83.33" branchCoverage="66.67" crapScore="2.02" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="5" numBranchPoints="3" visitedBranchPoints="2" sequenceCoverage="83.33" branchCoverage="66.67" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="2.02" minCrapScore="2.02" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663304</MetadataToken>
+              <Name>Logic.Tasks Logic.Factory::createProgrammingTask(System.String)</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="107" ordinal="0" offset="0" sl="40" sc="9" el="40" ec="10" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="1" uspid="108" ordinal="1" offset="1" sl="41" sc="13" el="41" ec="48" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="1" uspid="109" ordinal="2" offset="20" sl="42" sc="13" el="42" ec="34" bec="2" bev="1" fileid="10" />
+                <SequencePoint vc="0" uspid="110" ordinal="3" offset="33" sl="43" sc="17" el="43" ec="66" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="1" uspid="111" ordinal="4" offset="44" sl="44" sc="13" el="44" ec="75" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="1" uspid="112" ordinal="5" offset="64" sl="45" sc="9" el="45" ec="10" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="113" ordinal="0" offset="31" sl="42" path="0" offsetend="33" fileid="10" />
+                <BranchPoint vc="1" uspid="114" ordinal="1" offset="31" sl="42" path="1" offsetend="44" fileid="10" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="107" ordinal="0" offset="0" sl="40" sc="9" el="40" ec="10" bec="0" bev="0" fileid="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="83.33" branchCoverage="66.67" crapScore="2.02" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="5" numBranchPoints="3" visitedBranchPoints="2" sequenceCoverage="83.33" branchCoverage="66.67" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="2.02" minCrapScore="2.02" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663305</MetadataToken>
+              <Name>Logic.Tasks Logic.Factory::createMathematicsTask(System.String)</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="115" ordinal="0" offset="0" sl="48" sc="9" el="48" ec="10" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="1" uspid="116" ordinal="1" offset="1" sl="49" sc="13" el="49" ec="48" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="1" uspid="117" ordinal="2" offset="20" sl="50" sc="13" el="50" ec="34" bec="2" bev="1" fileid="10" />
+                <SequencePoint vc="0" uspid="118" ordinal="3" offset="33" sl="51" sc="17" el="51" ec="66" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="1" uspid="119" ordinal="4" offset="44" sl="52" sc="13" el="52" ec="97" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="1" uspid="120" ordinal="5" offset="72" sl="53" sc="9" el="53" ec="10" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="121" ordinal="0" offset="31" sl="50" path="0" offsetend="33" fileid="10" />
+                <BranchPoint vc="1" uspid="122" ordinal="1" offset="31" sl="50" path="1" offsetend="44" fileid="10" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="115" ordinal="0" offset="0" sl="48" sc="9" el="48" ec="10" bec="0" bev="0" fileid="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="83.33" branchCoverage="66.67" crapScore="2.02" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="5" numBranchPoints="3" visitedBranchPoints="2" sequenceCoverage="83.33" branchCoverage="66.67" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="2.02" minCrapScore="2.02" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663306</MetadataToken>
+              <Name>Logic.Tasks Logic.Factory::createPhysicsTask(System.String)</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="123" ordinal="0" offset="0" sl="56" sc="9" el="56" ec="10" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="1" uspid="124" ordinal="1" offset="1" sl="57" sc="13" el="57" ec="48" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="1" uspid="125" ordinal="2" offset="20" sl="58" sc="13" el="58" ec="34" bec="2" bev="1" fileid="10" />
+                <SequencePoint vc="0" uspid="126" ordinal="3" offset="33" sl="59" sc="17" el="59" ec="66" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="1" uspid="127" ordinal="4" offset="44" sl="60" sc="13" el="60" ec="110" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="1" uspid="128" ordinal="5" offset="80" sl="61" sc="9" el="61" ec="10" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="129" ordinal="0" offset="31" sl="58" path="0" offsetend="33" fileid="10" />
+                <BranchPoint vc="1" uspid="130" ordinal="1" offset="31" sl="58" path="1" offsetend="44" fileid="10" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="123" ordinal="0" offset="0" sl="56" sc="9" el="56" ec="10" bec="0" bev="0" fileid="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="4" nPathComplexity="8" sequenceCoverage="100" branchCoverage="100" crapScore="4" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="7" visitedBranchPoints="7" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" maxCrapScore="4" minCrapScore="4" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663307</MetadataToken>
+              <Name>System.Boolean Logic.Factory::checkType(System.String)</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="6" uspid="131" ordinal="0" offset="0" sl="64" sc="9" el="64" ec="10" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="6" uspid="132" ordinal="1" offset="1" sl="65" sc="13" el="65" ec="88" bec="5" bev="5" fileid="10" />
+                <SequencePoint vc="3" uspid="133" ordinal="2" offset="45" sl="66" sc="17" el="66" ec="29" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="3" uspid="134" ordinal="3" offset="49" sl="67" sc="13" el="67" ec="26" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="6" uspid="135" ordinal="4" offset="53" sl="68" sc="9" el="68" ec="10" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="5" uspid="136" ordinal="0" offset="12" sl="65" path="0" offsetend="14" fileid="10" />
+                <BranchPoint vc="1" uspid="137" ordinal="1" offset="12" sl="65" path="1" offsetend="40" fileid="10" />
+                <BranchPoint vc="4" uspid="138" ordinal="2" offset="25" sl="65" path="0" offsetend="27" fileid="10" />
+                <BranchPoint vc="2" uspid="139" ordinal="3" offset="25" sl="65" path="1" offsetend="40" fileid="10" />
+                <BranchPoint vc="3" uspid="140" ordinal="4" offset="43" sl="65" path="0" offsetend="45" fileid="10" />
+                <BranchPoint vc="3" uspid="141" ordinal="5" offset="43" sl="65" path="1" offsetend="49" fileid="10" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="6" uspid="131" ordinal="0" offset="0" sl="64" sc="9" el="64" ec="10" bec="0" bev="0" fileid="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="80" branchCoverage="66.67" crapScore="2.03" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="4" numBranchPoints="3" visitedBranchPoints="2" sequenceCoverage="80" branchCoverage="66.67" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="2.03" minCrapScore="2.03" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663308</MetadataToken>
+              <Name>System.DateTime Logic.Factory::parseDate(System.String)</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="4" uspid="142" ordinal="0" offset="0" sl="71" sc="9" el="71" ec="10" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="4" uspid="143" ordinal="1" offset="1" sl="72" sc="13" el="72" ec="59" bec="2" bev="1" fileid="10" />
+                <SequencePoint vc="0" uspid="144" ordinal="2" offset="16" sl="73" sc="17" el="73" ec="67" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="4" uspid="145" ordinal="3" offset="27" sl="74" sc="13" el="74" ec="23" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="4" uspid="146" ordinal="4" offset="31" sl="75" sc="9" el="75" ec="10" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="147" ordinal="0" offset="14" sl="72" path="0" offsetend="16" fileid="10" />
+                <BranchPoint vc="4" uspid="148" ordinal="1" offset="14" sl="72" path="1" offsetend="27" fileid="10" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="4" uspid="142" ordinal="0" offset="0" sl="71" sc="9" el="71" ec="10" bec="0" bev="0" fileid="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="80" branchCoverage="66.67" crapScore="2.03" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="4" numBranchPoints="3" visitedBranchPoints="2" sequenceCoverage="80" branchCoverage="66.67" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="2.03" minCrapScore="2.03" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663309</MetadataToken>
+              <Name>System.Int32 Logic.Factory::parseInt(System.String)</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="149" ordinal="0" offset="0" sl="78" sc="9" el="78" ec="10" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="1" uspid="150" ordinal="1" offset="1" sl="79" sc="13" el="79" ec="51" bec="2" bev="1" fileid="10" />
+                <SequencePoint vc="0" uspid="151" ordinal="2" offset="16" sl="80" sc="17" el="80" ec="68" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="1" uspid="152" ordinal="3" offset="27" sl="81" sc="13" el="81" ec="23" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="1" uspid="153" ordinal="4" offset="31" sl="82" sc="9" el="82" ec="10" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="154" ordinal="0" offset="14" sl="79" path="0" offsetend="16" fileid="10" />
+                <BranchPoint vc="1" uspid="155" ordinal="1" offset="14" sl="79" path="1" offsetend="27" fileid="10" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="149" ordinal="0" offset="0" sl="78" sc="9" el="78" ec="10" bec="0" bev="0" fileid="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="80" branchCoverage="66.67" crapScore="2.03" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="4" numBranchPoints="3" visitedBranchPoints="2" sequenceCoverage="80" branchCoverage="66.67" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="2.03" minCrapScore="2.03" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663310</MetadataToken>
+              <Name>System.Double Logic.Factory::parseDouble(System.String)</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="156" ordinal="0" offset="0" sl="85" sc="9" el="85" ec="10" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="1" uspid="157" ordinal="1" offset="1" sl="86" sc="13" el="86" ec="55" bec="2" bev="1" fileid="10" />
+                <SequencePoint vc="0" uspid="158" ordinal="2" offset="16" sl="87" sc="17" el="87" ec="69" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="1" uspid="159" ordinal="3" offset="27" sl="88" sc="13" el="88" ec="23" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="1" uspid="160" ordinal="4" offset="31" sl="89" sc="9" el="89" ec="10" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="161" ordinal="0" offset="14" sl="86" path="0" offsetend="16" fileid="10" />
+                <BranchPoint vc="1" uspid="162" ordinal="1" offset="14" sl="86" path="1" offsetend="27" fileid="10" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="156" ordinal="0" offset="0" sl="85" sc="9" el="85" ec="10" bec="0" bev="0" fileid="10" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="5" nPathComplexity="16" sequenceCoverage="91.67" branchCoverage="88.89" crapScore="5.01" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="12" visitedSequencePoints="11" numBranchPoints="9" visitedBranchPoints="8" sequenceCoverage="91.67" branchCoverage="88.89" maxCyclomaticComplexity="5" minCyclomaticComplexity="5" maxCrapScore="5.01" minCrapScore="5.01" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663311</MetadataToken>
+              <Name>Logic.Tasks Logic.Factory::createObjects(System.String)</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="6" uspid="163" ordinal="0" offset="0" sl="92" sc="9" el="92" ec="10" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="6" uspid="164" ordinal="1" offset="1" sl="93" sc="13" el="93" ec="102" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="6" uspid="165" ordinal="2" offset="21" sl="95" sc="13" el="95" ec="37" bec="2" bev="2" fileid="10" />
+                <SequencePoint vc="3" uspid="166" ordinal="3" offset="36" sl="96" sc="17" el="96" ec="62" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="3" uspid="167" ordinal="4" offset="47" sl="98" sc="13" el="98" ec="47" bec="2" bev="2" fileid="10" />
+                <SequencePoint vc="1" uspid="168" ordinal="5" offset="64" sl="99" sc="17" el="99" ec="55" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="2" uspid="169" ordinal="6" offset="75" sl="100" sc="13" el="100" ec="41" bec="2" bev="2" fileid="10" />
+                <SequencePoint vc="1" uspid="170" ordinal="7" offset="94" sl="101" sc="17" el="101" ec="55" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="1" uspid="171" ordinal="8" offset="105" sl="102" sc="13" el="102" ec="37" bec="2" bev="1" fileid="10" />
+                <SequencePoint vc="1" uspid="172" ordinal="9" offset="124" sl="103" sc="17" el="103" ec="51" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="0" uspid="173" ordinal="10" offset="135" sl="105" sc="17" el="105" ec="66" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="3" uspid="174" ordinal="11" offset="146" sl="106" sc="9" el="106" ec="10" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="3" uspid="175" ordinal="0" offset="34" sl="95" path="0" offsetend="36" fileid="10" />
+                <BranchPoint vc="3" uspid="176" ordinal="1" offset="34" sl="95" path="1" offsetend="47" fileid="10" />
+                <BranchPoint vc="1" uspid="177" ordinal="2" offset="62" sl="98" path="0" offsetend="64" fileid="10" />
+                <BranchPoint vc="2" uspid="178" ordinal="3" offset="62" sl="98" path="1" offsetend="75" fileid="10" />
+                <BranchPoint vc="1" uspid="179" ordinal="4" offset="92" sl="100" path="0" offsetend="94" fileid="10" />
+                <BranchPoint vc="1" uspid="180" ordinal="5" offset="92" sl="100" path="1" offsetend="105" fileid="10" />
+                <BranchPoint vc="1" uspid="181" ordinal="6" offset="122" sl="102" path="0" offsetend="124" fileid="10" />
+                <BranchPoint vc="0" uspid="182" ordinal="7" offset="122" sl="102" path="1" offsetend="135" fileid="10" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="6" uspid="163" ordinal="0" offset="0" sl="92" sc="9" el="92" ec="10" bec="0" bev="0" fileid="10" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663312</MetadataToken>
+              <Name>System.Void Logic.Factory::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="183" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>Logic.Factory/&lt;&gt;c</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663338</MetadataToken>
+              <Name>System.Void Logic.Factory/&lt;&gt;c::.cctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="184" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663339</MetadataToken>
+              <Name>System.Void Logic.Factory/&lt;&gt;c::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="185" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663340</MetadataToken>
+              <Name>System.Boolean Logic.Factory/&lt;&gt;c::&lt;checkLine&gt;b__2_0(System.Char)</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="143" uspid="186" ordinal="0" offset="0" sl="22" sc="69" el="22" ec="77" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="143" uspid="186" ordinal="0" offset="0" sl="22" sc="69" el="22" ec="77" bec="0" bev="0" fileid="10" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="24" visitedSequencePoints="16" numBranchPoints="22" visitedBranchPoints="12" sequenceCoverage="66.67" branchCoverage="54.55" maxCyclomaticComplexity="5" minCyclomaticComplexity="1" maxCrapScore="5.20" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="4" numMethods="6" />
+          <FullName>Logic.MathematicsTask</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663313</MetadataToken>
+              <Name>System.Double Logic.MathematicsTask::get_Mark()</Name>
+              <FileRef uid="12" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="187" ordinal="0" offset="0" sl="12" sc="13" el="12" ec="14" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="2" uspid="188" ordinal="1" offset="1" sl="13" sc="17" el="13" ec="30" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="2" uspid="189" ordinal="2" offset="10" sl="14" sc="13" el="14" ec="14" bec="0" bev="0" fileid="12" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="187" ordinal="0" offset="0" sl="12" sc="13" el="12" ec="14" bec="0" bev="0" fileid="12" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="5" nPathComplexity="16" sequenceCoverage="83.33" branchCoverage="55.56" crapScore="5.12" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="6" visitedSequencePoints="5" numBranchPoints="9" visitedBranchPoints="5" sequenceCoverage="83.33" branchCoverage="55.56" maxCyclomaticComplexity="5" minCyclomaticComplexity="5" maxCrapScore="5.12" minCrapScore="5.12" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663314</MetadataToken>
+              <Name>System.Void Logic.MathematicsTask::set_Mark(System.Double)</Name>
+              <FileRef uid="12" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="190" ordinal="0" offset="0" sl="16" sc="13" el="16" ec="14" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="2" uspid="191" ordinal="1" offset="1" sl="17" sc="17" el="17" ec="45" bec="4" bev="2" fileid="12" />
+                <SequencePoint vc="0" uspid="192" ordinal="2" offset="32" sl="18" sc="21" el="18" ec="86" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="2" uspid="193" ordinal="3" offset="43" sl="19" sc="22" el="19" ec="52" bec="4" bev="2" fileid="12" />
+                <SequencePoint vc="2" uspid="194" ordinal="4" offset="77" sl="20" sc="21" el="20" ec="35" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="2" uspid="195" ordinal="5" offset="84" sl="21" sc="13" el="21" ec="14" bec="0" bev="0" fileid="12" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="2" uspid="196" ordinal="0" offset="11" sl="17" path="0" offsetend="13" fileid="12" />
+                <BranchPoint vc="0" uspid="197" ordinal="1" offset="11" sl="17" path="1" offsetend="27" fileid="12" />
+                <BranchPoint vc="0" uspid="198" ordinal="2" offset="30" sl="17" path="0" offsetend="32" fileid="12" />
+                <BranchPoint vc="2" uspid="199" ordinal="3" offset="30" sl="17" path="1" offsetend="43" fileid="12" />
+                <BranchPoint vc="2" uspid="200" ordinal="4" offset="53" sl="19" path="0" offsetend="55" fileid="12" />
+                <BranchPoint vc="0" uspid="201" ordinal="5" offset="53" sl="19" path="1" offsetend="72" fileid="12" />
+                <BranchPoint vc="2" uspid="202" ordinal="6" offset="75" sl="19" path="0" offsetend="77" fileid="12" />
+                <BranchPoint vc="0" uspid="203" ordinal="7" offset="75" sl="19" path="1" offsetend="84" fileid="12" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="190" ordinal="0" offset="0" sl="16" sc="13" el="16" ec="14" bec="0" bev="0" fileid="12" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663315</MetadataToken>
+              <Name>System.Void Logic.MathematicsTask::.ctor(System.String,System.String,System.DateTime,System.Double)</Name>
+              <FileRef uid="12" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="204" ordinal="0" offset="0" sl="26" sc="15" el="26" ec="53" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="2" uspid="205" ordinal="1" offset="10" sl="27" sc="9" el="27" ec="10" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="2" uspid="206" ordinal="2" offset="11" sl="28" sc="13" el="28" ec="25" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="2" uspid="207" ordinal="3" offset="20" sl="29" sc="9" el="29" ec="10" bec="0" bev="0" fileid="12" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="204" ordinal="0" offset="0" sl="26" sc="15" el="26" ec="53" bec="0" bev="0" fileid="12" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="5" nPathComplexity="16" sequenceCoverage="80" branchCoverage="55.56" crapScore="5.20" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="4" numBranchPoints="9" visitedBranchPoints="5" sequenceCoverage="80" branchCoverage="55.56" maxCyclomaticComplexity="5" minCyclomaticComplexity="5" maxCrapScore="5.20" minCrapScore="5.20" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663316</MetadataToken>
+              <Name>System.Boolean Logic.MathematicsTask::Equals(System.Object)</Name>
+              <FileRef uid="12" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="208" ordinal="0" offset="0" sl="32" sc="9" el="32" ec="10" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="1" uspid="209" ordinal="1" offset="1" sl="33" sc="13" el="33" ec="45" bec="2" bev="1" fileid="12" />
+                <SequencePoint vc="1" uspid="210" ordinal="2" offset="16" sl="34" sc="17" el="34" ec="137" bec="4" bev="3" fileid="12" />
+                <SequencePoint vc="0" uspid="211" ordinal="3" offset="93" sl="35" sc="13" el="35" ec="26" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="1" uspid="212" ordinal="4" offset="97" sl="36" sc="9" el="36" ec="10" bec="0" bev="0" fileid="12" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="213" ordinal="0" offset="14" sl="33" path="0" offsetend="16" fileid="12" />
+                <BranchPoint vc="0" uspid="214" ordinal="1" offset="14" sl="33" path="1" offsetend="93" fileid="12" />
+                <BranchPoint vc="1" uspid="215" ordinal="2" offset="33" sl="34" path="0" offsetend="35" fileid="12" />
+                <BranchPoint vc="0" uspid="216" ordinal="3" offset="33" sl="34" path="1" offsetend="89" fileid="12" />
+                <BranchPoint vc="1" uspid="217" ordinal="4" offset="52" sl="34" path="0" offsetend="54" fileid="12" />
+                <BranchPoint vc="0" uspid="218" ordinal="5" offset="52" sl="34" path="1" offsetend="89" fileid="12" />
+                <BranchPoint vc="1" uspid="219" ordinal="6" offset="71" sl="34" path="0" offsetend="73" fileid="12" />
+                <BranchPoint vc="0" uspid="220" ordinal="7" offset="71" sl="34" path="1" offsetend="89" fileid="12" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="208" ordinal="0" offset="0" sl="32" sc="9" el="32" ec="10" bec="0" bev="0" fileid="12" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663317</MetadataToken>
+              <Name>System.Int32 Logic.MathematicsTask::GetHashCode()</Name>
+              <FileRef uid="12" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="221" ordinal="0" offset="0" sl="39" sc="9" el="39" ec="10" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="222" ordinal="1" offset="1" sl="40" sc="13" el="40" ec="75" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="223" ordinal="2" offset="47" sl="41" sc="9" el="41" ec="10" bec="0" bev="0" fileid="12" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="221" ordinal="0" offset="0" sl="39" sc="9" el="39" ec="10" bec="0" bev="0" fileid="12" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663318</MetadataToken>
+              <Name>System.String Logic.MathematicsTask::ToString()</Name>
+              <FileRef uid="12" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="224" ordinal="0" offset="0" sl="44" sc="9" el="44" ec="10" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="225" ordinal="1" offset="1" sl="45" sc="13" el="45" ec="102" bec="0" bev="0" fileid="12" />
+                <SequencePoint vc="0" uspid="226" ordinal="2" offset="66" sl="46" sc="9" el="46" ec="10" bec="0" bev="0" fileid="12" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="224" ordinal="0" offset="0" sl="44" sc="9" el="44" ec="10" bec="0" bev="0" fileid="12" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="20" visitedSequencePoints="13" numBranchPoints="18" visitedBranchPoints="11" sequenceCoverage="65" branchCoverage="61.11" maxCyclomaticComplexity="6" minCyclomaticComplexity="1" maxCrapScore="6.29" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="6" numMethods="8" />
+          <FullName>Logic.PhysicsTask</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663319</MetadataToken>
+              <Name>System.Int32 Logic.PhysicsTask::get_Quantity()</Name>
+              <FileRef uid="13" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="227" ordinal="0" offset="0" sl="9" sc="31" el="9" ec="35" bec="0" bev="0" fileid="13" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="227" ordinal="0" offset="0" sl="9" sc="31" el="9" ec="35" bec="0" bev="0" fileid="13" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663320</MetadataToken>
+              <Name>System.Void Logic.PhysicsTask::set_Quantity(System.Int32)</Name>
+              <FileRef uid="13" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="228" ordinal="0" offset="0" sl="9" sc="36" el="9" ec="40" bec="0" bev="0" fileid="13" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="228" ordinal="0" offset="0" sl="9" sc="36" el="9" ec="40" bec="0" bev="0" fileid="13" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663321</MetadataToken>
+              <Name>System.DateTime Logic.PhysicsTask::get_DateOfCompletion()</Name>
+              <FileRef uid="13" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="229" ordinal="0" offset="0" sl="10" sc="44" el="10" ec="48" bec="0" bev="0" fileid="13" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="229" ordinal="0" offset="0" sl="10" sc="44" el="10" ec="48" bec="0" bev="0" fileid="13" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663322</MetadataToken>
+              <Name>System.Void Logic.PhysicsTask::set_DateOfCompletion(System.DateTime)</Name>
+              <FileRef uid="13" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="230" ordinal="0" offset="0" sl="10" sc="49" el="10" ec="53" bec="0" bev="0" fileid="13" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="230" ordinal="0" offset="0" sl="10" sc="49" el="10" ec="53" bec="0" bev="0" fileid="13" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663323</MetadataToken>
+              <Name>System.Void Logic.PhysicsTask::.ctor(System.String,System.String,System.DateTime,System.Int32,System.DateTime)</Name>
+              <FileRef uid="13" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="231" ordinal="0" offset="0" sl="13" sc="15" el="13" ec="53" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="2" uspid="232" ordinal="1" offset="10" sl="14" sc="9" el="14" ec="10" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="2" uspid="233" ordinal="2" offset="11" sl="15" sc="13" el="15" ec="33" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="2" uspid="234" ordinal="3" offset="20" sl="16" sc="13" el="16" ec="49" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="2" uspid="235" ordinal="4" offset="29" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="13" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="231" ordinal="0" offset="0" sl="13" sc="15" el="13" ec="53" bec="0" bev="0" fileid="13" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="6" nPathComplexity="32" sequenceCoverage="80" branchCoverage="54.55" crapScore="6.29" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="4" numBranchPoints="11" visitedBranchPoints="6" sequenceCoverage="80" branchCoverage="54.55" maxCyclomaticComplexity="6" minCyclomaticComplexity="6" maxCrapScore="6.29" minCrapScore="6.29" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663324</MetadataToken>
+              <Name>System.Boolean Logic.PhysicsTask::Equals(System.Object)</Name>
+              <FileRef uid="13" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="236" ordinal="0" offset="0" sl="20" sc="9" el="20" ec="10" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="1" uspid="237" ordinal="1" offset="1" sl="21" sc="13" el="21" ec="41" bec="2" bev="1" fileid="13" />
+                <SequencePoint vc="1" uspid="238" ordinal="2" offset="16" sl="22" sc="17" el="23" ec="63" bec="5" bev="4" fileid="13" />
+                <SequencePoint vc="0" uspid="239" ordinal="3" offset="110" sl="24" sc="13" el="24" ec="26" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="1" uspid="240" ordinal="4" offset="114" sl="25" sc="9" el="25" ec="10" bec="0" bev="0" fileid="13" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="241" ordinal="0" offset="14" sl="21" path="0" offsetend="16" fileid="13" />
+                <BranchPoint vc="0" uspid="242" ordinal="1" offset="14" sl="21" path="1" offsetend="110" fileid="13" />
+                <BranchPoint vc="1" uspid="243" ordinal="2" offset="33" sl="22" path="0" offsetend="35" fileid="13" />
+                <BranchPoint vc="0" uspid="244" ordinal="3" offset="33" sl="22" path="1" offsetend="106" fileid="13" />
+                <BranchPoint vc="1" uspid="245" ordinal="4" offset="52" sl="22" path="0" offsetend="54" fileid="13" />
+                <BranchPoint vc="0" uspid="246" ordinal="5" offset="52" sl="22" path="1" offsetend="106" fileid="13" />
+                <BranchPoint vc="1" uspid="247" ordinal="6" offset="71" sl="22" path="0" offsetend="73" fileid="13" />
+                <BranchPoint vc="0" uspid="248" ordinal="7" offset="71" sl="22" path="1" offsetend="106" fileid="13" />
+                <BranchPoint vc="1" uspid="249" ordinal="8" offset="85" sl="22" path="0" offsetend="87" fileid="13" />
+                <BranchPoint vc="0" uspid="250" ordinal="9" offset="85" sl="22" path="1" offsetend="106" fileid="13" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="236" ordinal="0" offset="0" sl="20" sc="9" el="20" ec="10" bec="0" bev="0" fileid="13" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663325</MetadataToken>
+              <Name>System.Int32 Logic.PhysicsTask::GetHashCode()</Name>
+              <FileRef uid="13" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="251" ordinal="0" offset="0" sl="28" sc="9" el="28" ec="10" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="252" ordinal="1" offset="1" sl="29" sc="13" el="29" ec="97" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="253" ordinal="2" offset="53" sl="30" sc="9" el="30" ec="10" bec="0" bev="0" fileid="13" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="251" ordinal="0" offset="0" sl="28" sc="9" el="28" ec="10" bec="0" bev="0" fileid="13" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663326</MetadataToken>
+              <Name>System.String Logic.PhysicsTask::ToString()</Name>
+              <FileRef uid="13" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="254" ordinal="0" offset="0" sl="33" sc="9" el="33" ec="10" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="255" ordinal="1" offset="1" sl="34" sc="13" el="34" ec="132" bec="0" bev="0" fileid="13" />
+                <SequencePoint vc="0" uspid="256" ordinal="2" offset="80" sl="35" sc="9" el="35" ec="10" bec="0" bev="0" fileid="13" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="254" ordinal="0" offset="0" sl="33" sc="9" el="33" ec="10" bec="0" bev="0" fileid="13" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="14" visitedSequencePoints="7" numBranchPoints="10" visitedBranchPoints="5" sequenceCoverage="50" branchCoverage="50" maxCyclomaticComplexity="4" minCyclomaticComplexity="1" maxCrapScore="4.13" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="4" />
+          <FullName>Logic.ProgrammingTask</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663327</MetadataToken>
+              <Name>System.Void Logic.ProgrammingTask::.ctor(System.String,System.String,System.DateTime)</Name>
+              <FileRef uid="14" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="257" ordinal="0" offset="0" sl="13" sc="84" el="13" ec="115" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="2" uspid="258" ordinal="1" offset="10" sl="13" sc="116" el="13" ec="117" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="2" uspid="259" ordinal="2" offset="11" sl="13" sc="118" el="13" ec="119" bec="0" bev="0" fileid="14" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="257" ordinal="0" offset="0" sl="13" sc="84" el="13" ec="115" bec="0" bev="0" fileid="14" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="4" nPathComplexity="8" sequenceCoverage="80" branchCoverage="57.14" crapScore="4.13" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="4" numBranchPoints="7" visitedBranchPoints="4" sequenceCoverage="80" branchCoverage="57.14" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" maxCrapScore="4.13" minCrapScore="4.13" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663328</MetadataToken>
+              <Name>System.Boolean Logic.ProgrammingTask::Equals(System.Object)</Name>
+              <FileRef uid="14" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="260" ordinal="0" offset="0" sl="16" sc="9" el="16" ec="10" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="1" uspid="261" ordinal="1" offset="1" sl="17" sc="13" el="17" ec="45" bec="2" bev="1" fileid="14" />
+                <SequencePoint vc="1" uspid="262" ordinal="2" offset="16" sl="18" sc="17" el="18" ec="116" bec="3" bev="2" fileid="14" />
+                <SequencePoint vc="0" uspid="263" ordinal="3" offset="77" sl="19" sc="13" el="19" ec="26" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="1" uspid="264" ordinal="4" offset="81" sl="20" sc="9" el="20" ec="10" bec="0" bev="0" fileid="14" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="265" ordinal="0" offset="14" sl="17" path="0" offsetend="16" fileid="14" />
+                <BranchPoint vc="0" uspid="266" ordinal="1" offset="14" sl="17" path="1" offsetend="77" fileid="14" />
+                <BranchPoint vc="1" uspid="267" ordinal="2" offset="33" sl="18" path="0" offsetend="35" fileid="14" />
+                <BranchPoint vc="0" uspid="268" ordinal="3" offset="33" sl="18" path="1" offsetend="73" fileid="14" />
+                <BranchPoint vc="1" uspid="269" ordinal="4" offset="52" sl="18" path="0" offsetend="54" fileid="14" />
+                <BranchPoint vc="0" uspid="270" ordinal="5" offset="52" sl="18" path="1" offsetend="73" fileid="14" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="260" ordinal="0" offset="0" sl="16" sc="9" el="16" ec="10" bec="0" bev="0" fileid="14" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663329</MetadataToken>
+              <Name>System.Int32 Logic.ProgrammingTask::GetHashCode()</Name>
+              <FileRef uid="14" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="271" ordinal="0" offset="0" sl="23" sc="9" el="23" ec="10" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="0" uspid="272" ordinal="1" offset="1" sl="24" sc="13" el="24" ec="69" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="0" uspid="273" ordinal="2" offset="41" sl="25" sc="9" el="25" ec="10" bec="0" bev="0" fileid="14" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="271" ordinal="0" offset="0" sl="23" sc="9" el="23" ec="10" bec="0" bev="0" fileid="14" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663330</MetadataToken>
+              <Name>System.String Logic.ProgrammingTask::ToString()</Name>
+              <FileRef uid="14" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="274" ordinal="0" offset="0" sl="28" sc="9" el="28" ec="10" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="0" uspid="275" ordinal="1" offset="1" sl="29" sc="13" el="29" ec="100" bec="0" bev="0" fileid="14" />
+                <SequencePoint vc="0" uspid="276" ordinal="2" offset="37" sl="30" sc="9" el="30" ec="10" bec="0" bev="0" fileid="14" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="274" ordinal="0" offset="0" sl="28" sc="9" el="28" ec="10" bec="0" bev="0" fileid="14" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="12" visitedSequencePoints="12" numBranchPoints="7" visitedBranchPoints="7" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="7" numMethods="7" />
+          <FullName>Logic.Tasks</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663331</MetadataToken>
+              <Name>System.String Logic.Tasks::get_NameStudent()</Name>
+              <FileRef uid="15" />
+              <SequencePoints>
+                <SequencePoint vc="6" uspid="277" ordinal="0" offset="0" sl="9" sc="37" el="9" ec="41" bec="0" bev="0" fileid="15" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="6" uspid="277" ordinal="0" offset="0" sl="9" sc="37" el="9" ec="41" bec="0" bev="0" fileid="15" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663332</MetadataToken>
+              <Name>System.Void Logic.Tasks::set_NameStudent(System.String)</Name>
+              <FileRef uid="15" />
+              <SequencePoints>
+                <SequencePoint vc="6" uspid="278" ordinal="0" offset="0" sl="9" sc="42" el="9" ec="46" bec="0" bev="0" fileid="15" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="6" uspid="278" ordinal="0" offset="0" sl="9" sc="42" el="9" ec="46" bec="0" bev="0" fileid="15" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663333</MetadataToken>
+              <Name>System.String Logic.Tasks::get_TypeOfTask()</Name>
+              <FileRef uid="15" />
+              <SequencePoints>
+                <SequencePoint vc="6" uspid="279" ordinal="0" offset="0" sl="10" sc="36" el="10" ec="40" bec="0" bev="0" fileid="15" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="6" uspid="279" ordinal="0" offset="0" sl="10" sc="36" el="10" ec="40" bec="0" bev="0" fileid="15" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663334</MetadataToken>
+              <Name>System.Void Logic.Tasks::set_TypeOfTask(System.String)</Name>
+              <FileRef uid="15" />
+              <SequencePoints>
+                <SequencePoint vc="6" uspid="280" ordinal="0" offset="0" sl="10" sc="41" el="10" ec="45" bec="0" bev="0" fileid="15" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="6" uspid="280" ordinal="0" offset="0" sl="10" sc="41" el="10" ec="45" bec="0" bev="0" fileid="15" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663335</MetadataToken>
+              <Name>System.DateTime Logic.Tasks::get_DateGet()</Name>
+              <FileRef uid="15" />
+              <SequencePoints>
+                <SequencePoint vc="6" uspid="281" ordinal="0" offset="0" sl="11" sc="35" el="11" ec="39" bec="0" bev="0" fileid="15" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="6" uspid="281" ordinal="0" offset="0" sl="11" sc="35" el="11" ec="39" bec="0" bev="0" fileid="15" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663336</MetadataToken>
+              <Name>System.Void Logic.Tasks::set_DateGet(System.DateTime)</Name>
+              <FileRef uid="15" />
+              <SequencePoints>
+                <SequencePoint vc="6" uspid="282" ordinal="0" offset="0" sl="11" sc="40" el="11" ec="44" bec="0" bev="0" fileid="15" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="6" uspid="282" ordinal="0" offset="0" sl="11" sc="40" el="11" ec="44" bec="0" bev="0" fileid="15" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663337</MetadataToken>
+              <Name>System.Void Logic.Tasks::.ctor(System.String,System.String,System.DateTime)</Name>
+              <FileRef uid="15" />
+              <SequencePoints>
+                <SequencePoint vc="6" uspid="283" ordinal="0" offset="0" sl="13" sc="9" el="13" ec="78" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="6" uspid="284" ordinal="1" offset="7" sl="14" sc="9" el="14" ec="10" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="6" uspid="285" ordinal="2" offset="8" sl="15" sc="13" el="15" ec="39" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="6" uspid="286" ordinal="3" offset="16" sl="16" sc="13" el="16" ec="37" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="6" uspid="287" ordinal="4" offset="24" sl="17" sc="13" el="17" ec="31" bec="0" bev="0" fileid="15" />
+                <SequencePoint vc="6" uspid="288" ordinal="5" offset="32" sl="18" sc="9" el="18" ec="10" bec="0" bev="0" fileid="15" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="6" uspid="283" ordinal="0" offset="0" sl="13" sc="9" el="13" ec="78" bec="0" bev="0" fileid="15" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+  </Modules>
+</CoverageSession>

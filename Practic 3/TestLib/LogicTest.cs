@@ -11,34 +11,30 @@ namespace TestLib
     {
         [TestMethod]
         public void create_ProgrammingTaskObject_ReturnsSameProgrammingTaskObject()
-        {
-            var tasks = new ProgrammingTask("Иван Иванов1", "Контрольная", new DateTime(2024, 09, 16));
-            var expected = "Программирование   \"Иван Иванов\"   Контрольная   16.09.2024";
+        { 
+            var tasks = new ProgrammingTask("Иван Иванов", "Контрольная", new DateTime(2024, 09, 16));
+            var expected = "Программирование  \"Иван Иванов\"   Контрольная   16.09.2024";
             Assert.AreEqual(tasks, Factory.createObjects(expected));
         }
 
         [TestMethod]
         public void create_ProgrammingTaskObject_with_Exception()
         {
-            List<string> invalidInputs = new List<string>()
-            {
-                "Программирование   \"Иван Иванов\"   Контрольная   16.09.2024",
-                "Программирование   \"Иван Иванов\"   Контрольная",
-                "Программировании   \"Иван Иванов\"   Контрольная   16.09.2024",
-                "\"Иван Иванов\"   Контрольная   16.09.2024",
-            };
+            string expected = "Программировании   \"Иван Иванов\"   Контрольная   16.09.2024";
+            Assert.ThrowsException<Exception>(() => Factory.createObjects(expected));
 
-            foreach (string item in invalidInputs)
-            {
-                try
-                {
-                    Assert.ThrowsException<Exception>(() => Factory.createObjects(item));
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine(ex.Message + "Тест не прошел для значения: " + item);
-                }
-            }
+            //List<string> invalidInputs = new List<string>()
+            //{
+            //    "Программирование   \"Иван Иванов\"   Контрольная   16.09.2024",
+            //    "Программирование  \"Иван Иванов\"   Контрольная   16.09.2024",
+            //    "Программировании   \"Иван Иванов\"   Контрольная   16.09.2024",
+            //    "Программирование  \"Иван Иванов\"   Контрольная   16.09.2024",
+            //};
+
+            //foreach (string item in invalidInputs)
+            //{
+            //    Assert.ThrowsException<Exception>(() => Factory.createObjects(item));
+            //}
         }
 
         [TestMethod]
@@ -52,24 +48,21 @@ namespace TestLib
         [TestMethod]
         public void create_MathematicsTaskObject_with_Exception()
         {
-            List<string> invalidInputs = new List<string>()
-            {
-                "Математике   \"Иван Иванов\"   Контрольная   16.09.2024   10",
-                "Математика   \"Иван Иванов\"   Контрольная   10",
-                "\"Иван Иванов\"   Контрольная   16.09.2024   10",
-            };
+            string expected = "Математике   \"Иван Иванов\"   Контрольная   16.09.2024   10";
+            Assert.ThrowsException<Exception>(() => Factory.createObjects(expected));
 
-            foreach (string item in invalidInputs)
-            {
-                try
-                {
-                    Assert.ThrowsException<Exception>(() => Factory.createObjects(item));
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine(ex.Message + "Тест не прошел для значения: " + item);
-                }
-            }
+            //List<string> invalidInputs = new List<string>()
+            //{
+            //    "Математика   \"Иван Иванов\"   Контрольная   16.09.2024   10",
+            //    "Математике   \"Иван Иванов\"   Контрольная   16.09.2024   10",
+            //    "Математика   \"Иван Иванов\"   Контрольная   10",
+            //    "\"Иван Иванов\"   Контрольная   16.09.2024   10",
+            //};
+
+            //foreach (string item in invalidInputs)
+            //{
+            //    Assert.ThrowsException<Exception>(() => Factory.createObjects(item));
+            //}
         }
 
         [TestMethod]
@@ -83,25 +76,21 @@ namespace TestLib
         [TestMethod]
         public void create_PhysicsTaskObject_with_Exception()
         {
-            List<string> invalidInputs = new List<string>()
-            {
-                "Физика   \"Иван Иванов\"   Контрольная   16.09.2024   10   17.09.2024",
-                "Физике   \"Иван Иванов\"   Контрольная   16.09.2024   10",
-                "Физика   \"Иван Иванов\"   Контрольная   10",
-                "\"Иван Иванов\"   Контрольная   16.09.2024   10",
-            };
+            string expected = "Физике   \"Иван Иванов\"   Контрольная   16.09.2024   10";
+            Assert.ThrowsException<Exception>(() => Factory.createObjects(expected));
 
-            foreach (string item in invalidInputs)
-            {
-                try
-                {
-                    Assert.ThrowsException<Exception>(() => Factory.createObjects(item));
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine(ex.Message + "Тест не прошел для значения: " + item);
-                }
-            }
+            //List<string> invalidInputs = new List<string>()
+            //{
+            //    "Физика   \"Иван Иванов\"   Контрольная   16.09.2024   10   17.09.2024",
+            //    "Физике   \"Иван Иванов\"   Контрольная   16.09.2024   10",
+            //    "Физика   \"Иван Иванов\"   Контрольная   10",
+            //    "\"Иван Иванов\"   Контрольная   16.09.2024   10",
+            //};
+
+            //foreach (string item in invalidInputs)
+            //{
+            //    Assert.ThrowsException<Exception>(() => Factory.createObjects(item));
+            //}
         }
     }
 }
